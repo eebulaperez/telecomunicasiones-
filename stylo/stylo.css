@@ -143,6 +143,11 @@ body {
     .titulo{
         font-size: 27px;
     }
+    .socila p{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
    
 
 }
@@ -281,4 +286,8 @@ h3{
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     font-weight: bold;
+}
+.año{
+    font-size: 12px;
+    color: #181823;
 }
