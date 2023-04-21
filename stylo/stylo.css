@@ -122,14 +122,16 @@ body {
       .ocultar{
         display: inline;
       }
+      .socila p {
+        text-align: center;
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+    
      
 }
 
 @media (max-width: 768px) {
-    .social{
-        font-size: 5px;
-    }
-
     .itens{
         position: absolute;
         left: 2rem;
@@ -140,6 +142,7 @@ body {
     .titulo{
         font-size: 27px;
     }
+   
 
 }
 @media (max-width: 485px) {
@@ -150,6 +153,11 @@ body {
     }
     .titulo{
         font-size: 16px;
+    }
+    .footer h3{
+        font-size: 18px;
+        justify-items: stretch;
+        padding-right: 138px;
     }
     
 }
@@ -219,7 +227,7 @@ h2 {
 }
 
 .socila p {
-    text-align: center;
+   
     font-size: 40px;
     margin-bottom: 20px;
 }
@@ -254,4 +262,13 @@ h2 {
 
 .copy {
     color: #E5E0FF;
+}
+h3{
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
 }
