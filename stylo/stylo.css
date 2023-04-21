@@ -74,7 +74,7 @@ body {
 .conte-sevicio img{
     width: 40%;
     border-radius: 0;
-    
+    object-fit: cover;
 }
 .chek-servicios{
     width: 45%;
