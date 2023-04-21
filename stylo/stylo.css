@@ -126,6 +126,9 @@ body {
 }
 
 @media (max-width: 768px) {
+    .social{
+        font-size: 5px;
+    }
 
     .itens{
         position: absolute;
@@ -137,6 +140,7 @@ body {
     .titulo{
         font-size: 27px;
     }
+
 }
 @media (max-width: 485px) {
     .itens{
@@ -147,6 +151,7 @@ body {
     .titulo{
         font-size: 16px;
     }
+    
 }
 .hamburguesa span{
     width: 5rem;
@@ -215,7 +220,7 @@ h2 {
 
 .socila p {
     text-align: center;
-    font-size: 30px;
+    font-size: 40px;
     margin-bottom: 20px;
 }
 
@@ -250,66 +255,3 @@ h2 {
 .copy {
     color: #E5E0FF;
 }
-
-/*
-responsive*/
-/*
-
-@media  (max-width: 640px) {
-
-    .titulo {
-        padding-inline-end: 145px;
-        display: block;
-        margin-block-start: .2em;
-        margin-block-end: .1em;
-        margin-inline-start: 0px;
-        margin-inline-end: 0px;
-        font-size: 20px;
-    }
-
-    nav a {
-        font-size: 12px;
-    }
-
-    .contenido {
-        display: block;
-        padding: 0;
-    }
-    
-
-    h2 {
-        display: block;
-        margin-block-start: 1em;
-        margin-block-end: 1em;
-        margin-inline-start: 0px;
-        margin-inline-end: 0px;
-
-        text-align: center;
-
-    }
-
-    .secciones {
-        display: block;
-        align-items: center;
-
-    }
-   .itens{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-   }
-
-    p {
-        display: block;
-        margin-block-start: 1em;
-        margin-block-end: 1em;
-        margin-inline-start: 0px;
-        margin-inline-end: 0px;
-    }
-
-    img {
-        border-radius: 0%;
-
-    }
-
-}*/
