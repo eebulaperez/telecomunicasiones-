@@ -223,13 +223,17 @@ h2 {
 /* sosial */
 
 .socila {
-    margin: 50px;
+    background-image: linear-gradient(to top, #fbc2eb78 0%, #a6c0ee6a 100%);
+    width: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
 
 }
 
 .socila p {
-   
-    font-size: 40px;
+    font-family: cursive;
+    color: #9f8ad0;
+    font-size: 30px;
     margin-bottom: 20px;
 }
 
@@ -240,6 +244,7 @@ h2 {
 }
 
 .links a {
+    color:  #000000;
     margin: 0 30px;
 }
 
@@ -249,7 +254,7 @@ h2 {
 
 .links a i:hover {
 
-    color: #181823;
+    color: #9f8ad0;
 }
 
 .footer {
