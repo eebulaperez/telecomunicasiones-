@@ -125,7 +125,8 @@ body {
     }
     
     .titulo{
-        width: auto;
+        width: 100%;
+        position: fixed;
         font-size: 30px;
     }
     .secciones{
